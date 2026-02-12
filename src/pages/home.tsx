@@ -70,7 +70,7 @@ export default function Home(){
                     ))}
                 </div>
             </div>
-            <div className="w-full px-3 lg:px-5 py-10 flex flex-col items-center bg-[#F3F4F6] mt-5 lg:mt-10 border">
+            <div className="w-full px-3 lg:px-5 py-10 flex flex-col items-center bg-[#F3F4F6] mt-5 lg:mt-10">
                 <motion.h3 
                     {...scrollLeftEffects}
                     className="font-bold text-[#1F2937] text-2xl">

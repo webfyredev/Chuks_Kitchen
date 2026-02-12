@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.logo-font {
+  font-family: "Island Moments", cursive;
+}
+.footer-font {
+  font-family: "Josh", cursive;
+}
+.poppins-font {
+  font-family: "Poppins", cursive;
+}
+body{
+  background: #F3F4F6;
+}

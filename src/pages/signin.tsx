@@ -53,7 +53,9 @@ export default function SignIn(){
                             <motion.button 
                                 {...buttonScaleEffects}
                                 type="submit" className="border mt-2 w-full h-10 text-[13px] rounded-md cursor-pointer bg-[#FF7A18] text-white font-semibold">
-                                Continue
+                                    <Link to="/omboard">
+                                        Continue
+                                    </Link>
                             </motion.button>
                             <p className="text-[#1F2937] text-[9px] mt-1.5">
                                 Or continue with

@@ -7,6 +7,7 @@ import Account from "./pages/account"
 import SignIn from "./pages/signin"
 import SignUp from "./pages/signup"
 import ScrollToTop from "./components/scrollToTop"
+import Omboarding from "./pages/omboarding"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/account" element={<Account />}></Route>
           <Route path="/signin" element={<SignIn />}></Route>
           <Route path="/signup" element={<SignUp />}></Route>
+          <Route path="/omboard" element={<Omboarding />}></Route>
         </Routes>
       </Router>
     </>

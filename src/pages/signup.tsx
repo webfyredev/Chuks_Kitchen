@@ -1,4 +1,4 @@
-import { FaEnvelope, FaFacebook, FaGooglePlusG, FaLock, FaPhone, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaGooglePlusG, FaLock, FaPhoneAlt } from "react-icons/fa";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import sideBg from '../images/auth/signin.png'

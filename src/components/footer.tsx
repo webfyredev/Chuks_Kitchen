@@ -31,7 +31,7 @@ export default function Footer(){
                                 </Link>
                             </li>
                             <li className="text-[12px] cursor-pointer text-white poppins-font-400 hover:font-semibold">
-                                <Link to="/">
+                                <Link to="/orders">
                                     My Order
                                 </Link>
                             </li>

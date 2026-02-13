@@ -1,16 +1,18 @@
 import { FaEnvelope, FaFacebook, FaGooglePlusG, FaLock, FaPhoneAlt } from "react-icons/fa";
 import Footer from "../components/footer";
-import Navbar from "../components/navbar";
 import sideBg from '../images/auth/signin.png'
 import { buttonScaleEffects } from "../animation/animate";
 import { motion } from 'framer-motion'
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 
 export default function SignUp(){
+    useEffect(() => {
+        document.title = 'Chuks | Sign Up'
+    })
     return(
         <>
-            <Navbar />
                 <div className="w-full h-140 flex justify-center items-center mt-5">
                 <div className="w-[65%] h-[95%] flex">
                     <div className="hidden lg:flex w-1/2 h-full relative">
@@ -28,7 +30,9 @@ export default function SignUp(){
                     <div className="w-full lg:w-1/2 flex items-center justify-center">
                         <form action="" className="w-[90%] lg:w-[70%] h-full flex flex-col items-center">
                             <h3 className="logo-font mt-5 text-[#FF7A18] text-[20px]">
-                                Chuks Kitchen
+                                <Link to="/">
+                                    Chuks Kitchen
+                                </Link>
                             </h3>
                             <p className="font-semibold text-[15px]">
                                 Create Your Account
@@ -61,7 +65,7 @@ export default function SignUp(){
                                     <input type="password" placeholder="**********" className="h-full w-[97%] text-[10px] border-none outline-none" />
                                 </div>
                             </div>
-                            <div className="w-full flex items-center justify-start mt-2">
+                            <div className="w-full flex items-center justify-start mt-2 space-x-1">
                                 <input type="checkbox" />
                                 <p className="text-[9px]">
                                     I agree to the the <a href="" className="text-[#1E88E5] text-[9px] font-semibold"> Terms & Conditions</a> and  <a href="" className="text-[#1E88E5] text-[9px] font-semibold"> Privacy Policy</a>

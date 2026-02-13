@@ -5,16 +5,20 @@ import sideBg from '../images/auth/signin.png'
 import { omboard } from "../utils/omboard";
 import { motion } from 'framer-motion'
 import { buttonScaleEffects } from "../animation/animate";
+import { useEffect } from "react";
 export default function Omboarding(){
+    useEffect(() => {
+        document.title = 'Chuks | Omboarding'
+    })
     return(
         <>
             {/* <Navbar /> */}
             <div className="w-full h-140 flex justify-center items-center mt-5">
-            <div className="w-[65%] h-[95%] flex">
+            <div className="w-[85%] md:w-[75%] lg:w-[65%] h-[95%] flex">
                 <div className="hidden lg:flex w-1/2 h-full relative">
                     <img src={sideBg} alt="signin_bg" className="w-full h-full object-cover" />
                 </div>
-                <div className="w-full lg:w-1/2 flex flex-col space-y-15 bg-white">
+                <div className="w-full lg:w-1/2 flex flex-col space-y-10 md:space-y-15 bg-white">
                     <div className="flex w-full px-5 py-2 justify-between items-center">
                         <h3 className="logo-font text-[#FF7A18] text-[20px]">
                             <Link to="/">
@@ -27,7 +31,7 @@ export default function Omboarding(){
                             </Link>
                         </button>
                     </div>
-                    <div className="w-full flex flex-col px-5 mt-5">
+                    <div className="w-full flex flex-col px-5 md:mt-5">
                         <h3 className="font-semibold">
                             Your Authentic Taste of Nigeria
                         </h3>

@@ -5,8 +5,12 @@ import { motion } from 'framer-motion'
 import { jollof_rice, popular_cats, soups } from "../utils/explore";
 import { FaPlus } from "react-icons/fa";
 import Footer from "../components/footer";
+import { useEffect } from "react";
 
 export default function Explore(){
+    useEffect(() => {
+        document.title = 'Chuks | Explore'
+    })
     const categories = ['Popular', 'Jollof Rice & Entrees', 'Swallow & Soup', 'Grills & sides', 'Beverages', 'Desserts'];
     return(
         <>

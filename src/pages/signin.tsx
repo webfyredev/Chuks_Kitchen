@@ -1,14 +1,16 @@
 import { FaEnvelope, FaFacebook, FaGooglePlusG, FaLock } from "react-icons/fa";
 import Footer from "../components/footer";
-import Navbar from "../components/navbar";
 import sideBg from '../images/auth/signin.png'
 import { motion } from 'framer-motion'
 import { Link } from "react-router-dom";
 import { buttonScaleEffects } from "../animation/animate";
+import { useEffect } from "react";
 export default function SignIn(){
+    useEffect(() => {
+        document.title = 'Chuks | Sign In'
+    })
     return(
         <>
-            <Navbar />
             <div className="w-full h-140 flex justify-center items-center">
                 <div className="w-[65%] h-[85%] flex ">
                     <div className="hidden lg:flex w-1/2 h-full relative">
@@ -26,7 +28,9 @@ export default function SignIn(){
                     <div className="w-full lg:w-1/2 flex items-center justify-center">
                         <form action="" className="w-[90%] lg:w-[70%] h-[85%] flex flex-col items-center">
                             <h3 className="logo-font mt-5 text-[#FF7A18] text-[20px]">
-                                Chuks Kitchen
+                                <Link to="/">
+                                    Chuks Kitchen
+                                </Link>
                             </h3>
                             <p className="font-semibold text-[15px]">
                                 Login your Account

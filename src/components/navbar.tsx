@@ -36,7 +36,9 @@ export default function Navbar(){
                     </li>
                 </ul>
                 <button className="hidden lg:flex mr-5 border px-8 py-2 text-[13px] font-semibold cursor-pointer rounded-lg text-white bg-[#FF7A18]">
-                    Login
+                    <Link to="/signin">
+                        Login
+                    </Link>
                 </button>
                 <button onClick={() => setIsOpen(!isOpen)} className="cursor-pointer flex lg:hidden w-10 h-10 items-center justify-center text-[#FF7A18] hover:text-[#1F2937] transition-all">
                     {isOpen ? <FaTimes  size={20}/> : <FaBars  size={20}/>}
@@ -70,7 +72,9 @@ export default function Navbar(){
                         <motion.button 
                             {...buttonScaleEffects}
                             className="border w-full h-10.5 mb-5 mt-2 border-none bg-[#FF7A18] text-white text-[13px] rounded-md cursor-pointer font-semibold">
-                            Login
+                            <Link to="/signin">
+                                Login
+                            </Link>
                         </motion.button>
                     </motion.div>
                 )}

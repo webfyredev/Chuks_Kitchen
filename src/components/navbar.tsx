@@ -46,7 +46,7 @@ export default function Navbar(){
                 {isOpen && (
                     <motion.div
                         {...scrollRightEffects} 
-                        className="lg:hidden flex w-full h-auto px-2 absolute top-14 left-0 h-50 z-50 bg-white flex-col">
+                        className="lg:hidden flex w-full h-auto px-2 absolute top-14 left-0 h-50 z-50 bg-white flex-col overflow-hidden">
                         <ul className="space-y-3 mt-2">
                             <li className="text-[#1F2937] text-[13px] cursor-pointer px-4 py-2 rounded-lg hover:text-[#FF7A18] hover:bg-[#FF7A18]/10  font-semibold transition-all duration-300">
                                 <NavLink to="/" end className={({isActive}) => `${isActive ? 'text-[#FF7A18] ' : 'text-[#1F2937]'}`}>

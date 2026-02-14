@@ -53,7 +53,7 @@ export default function Explore(){
                                 {...scrollRightEffects}
                                 key={index} className="flex flex-row space-x-3 md:space-x-0 items-center bg-white  md:flex md:flex-col rounded-xl  md:mb-5 group overflow-hidden hover:shadow-sm hover:transition-all hover:duration-300 px-2 md:px-0">
                                 <img src={data.image} alt={data.title} className="rounded-sm md:rounded-t-xl w-[30%] md:w-full h-25 md:h-50 object-cover group-hover:scale-105 transition-all duration-300 cursor-pointer" />
-                                <div className="flex flex-col items-left justify-center px-2 md:py-5 bg-white md:rounded-b-xl h-30 md:h-40 w-[70%] md:w-full">
+                                <div className="flex flex-col items-left justify-center px-2 md:py-5 bg-white md:rounded-b-xl h-35 md:h-40 w-[70%] md:w-full">
                                     <h3 className="text-[#1F2937] font-semibold text-[15px] group-hover:text-[#FF7A18] mb-2">
                                         {data.title}
                                     </h3>
@@ -81,7 +81,7 @@ export default function Explore(){
                                 {...scrollRightEffects}
                                 key={index} className="flex flex-row space-x-3 md:space-x-0 items-center bg-white  md:flex md:flex-col rounded-xl  md:mb-5 group overflow-hidden hover:shadow-sm hover:transition-all hover:duration-300 px-2 md:px-0">
                                 <img src={data.image} alt={data.title} className="rounded-sm md:rounded-t-xl w-[30%] md:w-full h-25 md:h-50 object-cover group-hover:scale-105 transition-all duration-300 cursor-pointer" />
-                                <div className="flex flex-col items-left justify-center px-2 md:py-5 bg-white md:rounded-b-xl h-30 md:h-40 w-[70%] md:w-full">
+                                <div className="flex flex-col items-left justify-center px-2 md:py-5 bg-white md:rounded-b-xl h-35 md:h-40 w-[70%] md:w-full">
                                     <h3 className="text-[#1F2937] font-semibold text-[15px] group-hover:text-[#FF7A18] mb-2">
                                         {data.title}
                                     </h3>
@@ -109,7 +109,7 @@ export default function Explore(){
                                 {...scrollRightEffects}
                                 key={index} className="flex flex-row space-x-3 md:space-x-0 items-center bg-white  md:flex md:flex-col rounded-xl  md:mb-5 group overflow-hidden hover:shadow-sm hover:transition-all hover:duration-300 px-2 md:px-0">
                                 <img src={data.image} alt={data.title} className="rounded-sm md:rounded-t-xl w-[30%] md:w-full h-25 md:h-50 object-cover group-hover:scale-105 transition-all duration-300 cursor-pointer" />
-                                <div className="flex flex-col items-left justify-center px-2 md:py-5 bg-white md:rounded-b-xl h-30 md:h-40 w-[70%] md:w-full">
+                                <div className="flex flex-col items-left justify-center px-2 md:py-5 bg-white md:rounded-b-xl h-35 md:h-40 w-[70%] md:w-full">
                                     <h3 className="text-[#1F2937] font-semibold text-[15px] group-hover:text-[#FF7A18] mb-2">
                                         {data.title}
                                     </h3>

@@ -12,7 +12,7 @@ export default function SignIn(){
     return(
         <>
             <div className="w-full h-140 flex justify-center items-center">
-                <div className="w-[65%] h-[85%] flex ">
+                <div className="w-[85%] md:w-[65%] h-[85%] flex">
                     <div className="hidden lg:flex w-1/2 h-full relative">
                         <img src={sideBg} alt="signin_bg" className="w-full h-full object-cover" />
                         <div className="absolute w-full h-full top-0 bg-[#FF7A18]/[70%] flex items-center justify-center flex-col">

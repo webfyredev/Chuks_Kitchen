@@ -1,6 +1,12 @@
 import { FaArrowUp } from "react-icons/fa";
 import { Link } from "react-router-dom"
 export default function Footer(){
+    const scrollUpIcon = () => {
+        window.scrollTo({
+            top : 0,
+            behavior : "smooth"
+        })
+    }
     return(
         <>
             <footer className="w-full flex flex-col items-center lg:px-20 py-10 bg-[#62422E]">
@@ -95,7 +101,7 @@ export default function Footer(){
                 </div>
                 <div className="w-full flex items-center justify-between px-5 mt-5">
                     <p className="poppins-font-300 text-[13px] text-white">&copy; 2020 Life Media. All rights reserved.</p>
-                    <button className="p-3 rounded-full bg-[#0081FE] text-white cursor-pointer">
+                    <button onClick={scrollUpIcon} className="p-3 rounded-full bg-[#0081FE] text-white cursor-pointer">
                         <FaArrowUp />
                     </button>
                 </div>

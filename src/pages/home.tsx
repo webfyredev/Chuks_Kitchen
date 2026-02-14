@@ -41,7 +41,7 @@ export default function Home(){
             </div>
             <motion.div 
                 {...scrollUpEffect}
-                className="w-full h-15 absolute top-[75%] lg:top-[95%] flex items-center justify-center z-10 overflow-hidden">
+                className="w-full h-15 absolute top-[75%] md:top-[55%] lg:top-[95%] flex items-center justify-center overflow-hidden">
                 <div 
                     className="w-[90%] md:w-[80%] lg:w-[70%] h-[75%] px-3 rounded-md bg-white shadow-md text-[13px] hover:outline-2 hover:outline-[#FF7A18]/20 flex items-center space-x-3 transition-all duration-300">
                     <FaSearch  className="text-[#807373]"/>

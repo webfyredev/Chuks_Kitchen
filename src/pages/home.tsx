@@ -41,13 +41,12 @@ export default function Home(){
             </div>
             <motion.div 
                 {...scrollUpEffect}
-                className="w-full h-15 absolute top-[75%] lg:top-[95%] flex items-center justify-center overflow-hidden">
+                className="w-full h-15 absolute bottom-[-30px] md:bottom-[-40px] flex items-center justify-center overflow-hidden">
                 <div 
                     className="w-[90%] md:w-[80%] lg:w-[70%] h-[75%] px-3 rounded-md bg-white shadow-md text-[13px] hover:outline-2 hover:outline-[#FF7A18]/20 flex items-center space-x-3 transition-all duration-300">
                     <FaSearch  className="text-[#807373]"/>
                     <input type="text" className="text-[#1F2937] w-[95%] h-full outline-none" placeholder="What are you craving for today" />
                 </div>
-
             </motion.div>
             <div className="w-full px-3 lg:px-5 py-5 lg:py-10 flex flex-col items-center mt-10 lg:mt-20 bg-[#F3F4F6] overflow-hidden">
                 <motion.h3 

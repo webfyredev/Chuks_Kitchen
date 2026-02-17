@@ -74,7 +74,7 @@ export default function Explore(){
                             )
                         })}
                     </div>
-                    <Link  to="/" className="mt-2 w-full flex lg:hidden items-center justify-center text-[#1E88E5] font-semibold text-[13px] ">
+                    <Link  to="/" className="mt-2 w-full flex md:hidden items-center justify-center text-[#1E88E5] font-semibold text-[13px] ">
                         View Categories
                     </Link>
                 </div>
@@ -105,7 +105,7 @@ export default function Explore(){
                             </motion.div>
                         ))}
                     </div>
-                    <Link  to="/" className="mt-2 w-full flex lg:hidden items-center justify-center text-[#1E88E5] font-semibold text-[13px] ">
+                    <Link  to="/" className="mt-2 w-full flex md:hidden items-center justify-center text-[#1E88E5] font-semibold text-[13px] ">
                         View Categories
                     </Link>
                 </div>
@@ -136,7 +136,7 @@ export default function Explore(){
                             </motion.div>
                         ))}
                     </div>
-                    <Link  to="/" className="mt-2 w-full flex lg:hidden items-center justify-center text-[#1E88E5] font-semibold text-[13px] ">
+                    <Link  to="/" className="mt-2 w-full flex md:hidden items-center justify-center text-[#1E88E5] font-semibold text-[13px] ">
                         View Categories
                     </Link>
                 </div>
